@@ -2,9 +2,12 @@ import knex from 'knex'
 import path from 'path'
 
 const db = knex({
-    client: 'sqlite3',
+    client: 'pg',
     connection: {
-        filename: path.resolve(__dirname,'database.sqlite')
+        host: '127.0.0.1',
+        user: process.env.TODO_DB_USER,
+        password: process.env.TODO_DB_PW,
+        database: 'todos_test'
     },
     useNullAsDefault: true
 });
