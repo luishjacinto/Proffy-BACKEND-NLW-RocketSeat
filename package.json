@@ -8,7 +8,9 @@
     "dev": "tsnd --transpile-only --ignore-watch node_modules --respawn src/server.ts",
     "knex:migrate": "knex --knexfile dist/knexfile.js migrate:latest",
     "knex:rollback": "knex --knexfile dist/knexfile.js migrate:rollback",
+    "knex:seed": "knex --knexfile dist/knexfile.js seed:run",
     "build": "tsc"
+    
   },
   "dependencies": {
     "@types/cors": "^2.8.7",
