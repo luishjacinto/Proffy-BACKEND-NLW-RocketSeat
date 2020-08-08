@@ -5,17 +5,17 @@ exports.seed = function(knex: knex) {
       .then(function () {
         return knex('classes').insert([
             {
-                subject: 'Física',
+                subject: 'Fisica',
                 cost: 62,
                 user_id: 1
             },
             {
-                subject: 'Lógica de Programação',
+                subject: 'Logica de Programação',
                 cost: 120,
                 user_id: 2
             },
             {
-                subject: 'Matemática',
+                subject: 'Matematica',
                 cost: 40,
                 user_id: 3
             },

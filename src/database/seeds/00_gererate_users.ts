@@ -8,16 +8,16 @@ exports.seed = function(knex: knex) {
                 name: 'Walter White',
                 avatar: 'https://i.insider.com/5dade9bc045a3139e8686c33?width=1100&format=jpeg&auto=webp',
                 whatsapp: '202-555-0129',
-                bio: 'Sou apenas um professor com câncer que vende meta.'
+                bio: 'Sou apenas um professor com cancer que vende meta.'
             },
             {
                 name: 'Sergio',
                 avatar: 'https://i.pinimg.com/474x/5f/1c/a7/5f1ca7519a6a202738cd1409fe0e8895.jpg',
                 whatsapp: '202-555-0129',
-                bio: 'Tenho um ´ótimo plano de estudos para você'
+                bio: 'Tenho um otimo plano de estudos para voce'
             },
             {
-                name: 'Utônio',
+                name: 'Utonio',
                 avatar: 'https://i.pinimg.com/originals/2c/06/46/2c0646c8fbbbfc300bce61a7a52551d0.jpg',
                 whatsapp: '202-555-0129',
                 bio: 'Criei as meninas super poderosas.'
