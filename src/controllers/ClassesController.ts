@@ -44,7 +44,7 @@ export default class ClassesController {
                         .whereRaw('class_schedule.from <= ??',[timeInMinutes])
                         .whereRaw('class_schedule.to >= ??',[timeInMinutes])
                 })
-                .where('classes.subject','=', subject)
+                .where('classes.subject','like', `%${subject}%`)
                 .join('users','classes.user_id','=','users.id')
                 .select(['classes.*','users.*'])   
 
