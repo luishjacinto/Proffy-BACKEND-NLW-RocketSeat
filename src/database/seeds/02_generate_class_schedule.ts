@@ -1,9 +1,9 @@
 import knex from 'knex'
 
 exports.seed = function(knex: knex) {
-    return knex('classes').del()
+    return knex('class_schedule').del()
       .then(function () {
-        return knex('classes').insert([
+        return knex('class_schedule').insert([
             {
                 week_day: 1,
                 from: '08:00',
